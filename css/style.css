@@ -1,0 +1,143 @@
+body {
+  font-size: 16px;
+  color: white;
+  background-color: #ff781c;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav h1{
+	
+	color: #ff781c;
+	
+}
+#navbar-header1{
+	width: 100%;
+	background-color: black;
+	border-radius: 0;
+	border: 0;
+	
+	top: 0;
+	z-index: 500;
+	height: 70px;
+}
+
+#menu-items{
+	height: 1000px;
+}
+
+#menu-items h1{
+	text-align: center;
+	color: black;
+	font-weight: bolder;
+	font-family: cursive;
+	font-size: 2em;
+}
+#menu-items p{
+	font-weight: bold;
+}
+
+#menu-items section{
+	background-color: white;
+	color: black;
+}
+
+#menu-items .title h1 {
+	color: white;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1{
+	color: #ff781c;
+	font-family: 'Lora', serif;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: .75;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+
+
+
+.navbar-header button.navbar-toggle,.icon-bar{
+	border: 1px solid #ff781c;
+	color: white;
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+
+
+.our-menu h1{
+	text-align: center;
+	background-color: black;
+	color:  #ff781c;
+}
+.container{
+	width: 100%;
+}
+
+#chicken h1{
+	text-align: center;
+}
+
+#beef h1{
+	text-align: center;
+}
+
+#sushi h1{
+	text-align: center;
+}
+
+
+.container-fluid {
+	height: 1000px;
+}
+
+#collapsable-nav a{
+	background-color: black;
+	color: white;
+	width: 100%;
+	text-align: center;
+}
+
+
+@media(min-width: 992px) and (max-width: 3000px){
+	#collapsable-nav {
+		display: none;
+		visibility: hidden;
+
+	}
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	#collapsable-nav {
+		display: none;
+		visibility: hidden;
+
+	}
+
+}
+
+@media(max-width: 767px){
+	
+	#collapsable-nav{
+		cursor: context-menu;
+	}
+
+	#collapsable-nav a span {
+	font-size: 1.5em;
+	margin-right: 5px;
+
+ 	}
+}
